@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>볼트/너트 이미지 확인</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>볼트/너트 이미지 확인</h1>
+        <input type="text" id="boltInput" placeholder="예: HEX. BOLT M8 x 22L">
+        <button onclick="showBoltImage()">검색</button>
+        <div id="result">
+            <img id="boltImage" src="" alt="볼트 이미지">
+            <p id="boltDescription"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
